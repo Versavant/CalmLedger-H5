@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>隐私声明 - 清醒账簿</title>
     <style>
         :root {
@@ -18,52 +18,27 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
             line-height: 1.7;
-            color: #1d1d1f;
+            color: #000000;
             background: #ffffff;
             margin: 0;
         }
 
-        @media (prefers-color-scheme: dark) {
-            body {
-                color: #f5f5f7;
-                background: #171717;
-            }
-            .container {
-                background: #1c1c1e;
-            }
-            h1 {
-                color: #ffffff;
-            }
-            h2 {
-                color: #e5e5e7;
-            }
-            p, li {
-                color: #c7c7cc;
-            }
-        }
-
         .container {
-            padding: 40px 24px 60px;
+            padding: 40px 24px calc(60px + env(safe-area-inset-bottom, 0px));
             background: #ffffff;
             min-height: 100vh;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            .container {
-                background: #1c1c1e;
-            }
         }
 
         h1 {
             font-size: 28px;
             font-weight: 700;
             margin-bottom: 8px;
-            color: #1d1d1f;
+            color: #000000;
         }
 
         .date {
             font-size: 14px;
-            color: #86868b;
+            color: rgba(0, 0, 0, 0.35);
             margin-bottom: 32px;
         }
 
@@ -72,7 +47,7 @@
             font-weight: 600;
             margin-top: 32px;
             margin-bottom: 12px;
-            color: #1d1d1f;
+            color: #000000;
         }
 
         p {
@@ -91,35 +66,55 @@
         }
 
         .highlight {
-            background: #f0f0f5;
+            background: rgba(0, 0, 0, 0.08);
             padding: 16px 20px;
             border-radius: 12px;
             margin: 20px 0;
         }
 
-        @media (prefers-color-scheme: dark) {
-            .highlight {
-                background: #2c2c2e;
-            }
-        }
-
         footer {
             margin-top: 48px;
             padding-top: 24px;
-            border-top: 1px solid #e5e5ea;
+            border-top: 1px solid rgba(0, 0, 0, 0.08);
             font-size: 13px;
-            color: #86868b;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            footer {
-                border-top-color: #38383a;
-            }
+            color: rgba(0, 0, 0, 0.35);
         }
 
         a {
             color: #0071e3;
             text-decoration: none;
+        }
+
+        /* Dark mode — aligned with DesignTheme tokens */
+        @media (prefers-color-scheme: dark) {
+            body {
+                color: #f9f9f9;
+                background: #171717;
+            }
+
+            .container {
+                background: #242424;
+            }
+
+            h1, h2 {
+                color: #f9f9f9;
+            }
+
+            p, li {
+                color: #b4b4b4;
+            }
+
+            .date, footer {
+                color: #888888;
+            }
+
+            .highlight {
+                background: #363636;
+            }
+
+            footer {
+                border-top-color: #363636;
+            }
         }
     </style>
 </head>
