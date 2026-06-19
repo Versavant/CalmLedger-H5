@@ -2,67 +2,188 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>使用条款 - CalmLedger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>服务条款 - 清醒账本</title>
     <style>
-        :root { color-scheme: light dark; }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            color-scheme: light dark;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
             line-height: 1.7;
-            color: #333;
-            background: #f5f5f5;
+            color: #000000;
+            background: #ffffff;
+            margin: 0;
         }
-        .container { max-width: 720px; margin: 0 auto; padding: 40px 24px; }
-        .card {
-            background: #fff;
+
+        .container {
+            padding: 40px 24px calc(60px + env(safe-area-inset-bottom, 0px));
+            background: #ffffff;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #000000;
+        }
+
+        .date {
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.35);
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #000000;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        li {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: rgba(0, 0, 0, 0.08);
+            padding: 16px 20px;
             border-radius: 12px;
-            padding: 32px;
-            margin-bottom: 24px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            margin: 20px 0;
         }
-        h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
-        h2 { font-size: 20px; font-weight: 600; margin: 24px 0 12px; }
-        p, li { font-size: 16px; color: #555; margin-bottom: 12px; }
-        a { color: #007AFF; text-decoration: none; }
-        .footer { text-align: center; font-size: 14px; color: #999; margin-top: 32px; }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(0, 0, 0, 0.12);
+            font-size: 13px;
+            color: rgba(0, 0, 0, 0.35);
+        }
+
+        a {
+            color: #078A52;
+            text-decoration: none;
+        }
+
+        /* Dark mode — aligned with DesignTheme tokens */
         @media (prefers-color-scheme: dark) {
-            body { background: #171717; color: #e0e0e0; }
-            .card { background: #222; }
-            p, li { color: #aaa; }
+            body {
+                color: #FAFAFA;
+                background: #171717;
+            }
+
+            .container {
+                background: #171717;
+            }
+
+            h1, h2 {
+                color: #FAFAFA;
+            }
+
+            p, li {
+                color: #B4B4B4;
+            }
+
+            .date, footer {
+                color: #898989;
+            }
+
+            .highlight {
+                background: #363636;
+            }
+
+            footer {
+                border-top-color: #2E2E2E;
+            }
+
+            a {
+                color: #3ECF8E;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="card">
-            <h1>使用条款</h1>
-            <p>生效日期：2026 年 6 月 13 日</p>
+        <h1>服务条款</h1>
+        <p class="date">生效日期：2026 年 6 月 19 日</p>
 
-            <h2>1. 订阅服务</h2>
-            <p>CalmLedger 提供自动续期订阅：</p>
-            <ul>
-                <li>Plus 会员 — 月付 / 年付，解锁核心功能</li>
-                <li>Pro 会员 — 月付 / 年付，解锁全部功能</li>
-            </ul>
-            <p>订阅费用将从您的 Apple ID 账户扣除。除非在当前订阅期结束前至少 24 小时取消，否则订阅将自动续期。您可以在 iOS「设置 → Apple ID → 订阅」中管理或取消订阅。</p>
+        <p>欢迎使用清醒账本（以下简称"本应用"）。使用本应用即表示您同意以下服务条款。请仔细阅读。</p>
 
-            <h2>2. 退款</h2>
-            <p>所有购买和订阅均通过 Apple App Store 处理。如需退款，请访问 reportaproblem.apple.com 向 Apple 提交申请。</p>
+        <h2>1. 服务说明</h2>
+        <p>清醒账本是一款智能记账工具，提供以下服务：</p>
+        <ul>
+            <li>基础记账功能（免费）</li>
+            <li>AI 语音记账、iCloud 多端同步、CSV 导出、多货币记账、多账本管理等高级功能（通过订阅获取）</li>
+        </ul>
 
-            <h2>3. 使用限制</h2>
-            <p>免费用户可使用基础记账功能和有限次数的 AI 语音记账。Plus/Pro 会员可解锁更多 AI 使用次数和高级功能。</p>
+        <h2>2. 订阅服务</h2>
+        <p>本应用提供自动续期订阅服务。订阅分为 Plus 会员和 Pro 会员两种，每种均提供月度订阅和年度订阅选项。</p>
+        <ul>
+            <li><strong>自动续期：</strong>除非在当前订阅期结束前至少 24 小时取消，否则订阅将自动续期</li>
+            <li><strong>扣费时间：</strong>Apple 将在当前订阅期结束前 24 小时内从您的 Apple ID 账户扣费</li>
+            <li><strong>取消订阅：</strong>您可以随时通过 iPhone「设置 → 您的名字 → 订阅」或 App Store 的订阅管理页面取消自动续期。取消后，当前已付费的订阅期仍可使用至到期日</li>
+            <li><strong>价格变更：</strong>如有价格调整，我们会在征得您同意后继续续费</li>
+        </ul>
 
-            <h2>4. 服务变更</h2>
-            <p>我们保留随时修改功能和定价的权利。重大变更将提前通知用户。</p>
+        <h2>3. 免费试用</h2>
+        <p>新用户首次安装可获得一定次数的 AI 语音记账免费试用额度。免费额度用完后，需要订阅 Pro 会员才能继续使用 AI 功能。免费额度不兑换现金，不可转让。</p>
 
-            <h2>5. 联系我们</h2>
-            <p>如有任何问题，请通过应用内「帮助与反馈」联系我们。</p>
-        </div>
+        <h2>4. 用户行为规范</h2>
+        <p>使用本应用时，您同意：</p>
+        <ul>
+            <li>不会利用本应用从事任何违法活动</li>
+            <li>不会尝试破解、逆向工程或干扰本应用的正常运行</li>
+            <li>不会通过自动化脚本或其他非正常手段滥用 AI 服务</li>
+            <li>对您输入和导出的所有数据负责</li>
+        </ul>
 
-        <div class="footer">
-            <p>&copy; 2026 CalmLedger. All rights reserved.</p>
-        </div>
+        <h2>5. 退款政策</h2>
+        <p>本应用通过 Apple App Store 销售，所有支付和退款由 Apple 处理。如需申请退款，请通过 Apple 的<a href="https://reportaproblem.apple.com">问题报告页面</a>提交申请。Apple 将根据其退款政策处理您的请求。</p>
+
+        <h2>6. 免责声明</h2>
+        <p>本应用按"现状"提供，不提供任何明示或暗示的保证，包括但不限于适销性、特定用途适用性或不侵权的保证。虽然我们努力确保 AI 解析的准确性，但无法保证 100% 正确，AI 解析结果仅供参考。</p>
+        <ul>
+            <li>我们不保证服务不会中断、及时、安全或无错误</li>
+            <li>您理解并同意，使用本应用的风险由您自行承担</li>
+            <li>在法律允许的最大范围内，清醒账本及其开发者不对因使用本应用而产生的任何间接、附带、特殊、后果性或惩罚性损害赔偿承担责任</li>
+            <li>AI 功能依赖第三方服务，可能因网络、服务商故障等原因暂时不可用</li>
+        </ul>
+
+        <h2>7. 知识产权</h2>
+        <p>本应用及其所有内容（包括但不限于代码、界面设计、图标、文本）的所有权利归清醒账本开发者所有。未经明确许可，不得复制、修改或分发本应用的任何部分。</p>
+
+        <h2>8. 条款变更</h2>
+        <p>我们保留随时修改本服务条款的权利。修改后的条款将在应用内发布，并在生效日期开始生效。继续使用本应用即表示您同意修改后的条款。如您不同意修改后的条款，请停止使用本应用。</p>
+
+        <h2>9. 终止服务</h2>
+        <p>我们保留因任何原因（包括违反本条款）暂停或终止您使用本应用的权利。</p>
+
+        <h2>10. 联系我们</h2>
+        <p>如对本服务条款有任何疑问，请通过应用内的"帮助与反馈"联系我们。</p>
+
+        <footer>
+            <p>清醒账本 — 保持清醒，好好花钱。</p>
+        </footer>
     </div>
 </body>
 </html>
