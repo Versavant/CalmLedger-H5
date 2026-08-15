@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>隱私聲明 - 清醒記賬</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+            line-height: 1.7;
+            color: #000000;
+            background: #ffffff;
+            margin: 0;
+        }
+
+        .container {
+            padding: 40px 24px calc(60px + env(safe-area-inset-bottom, 0px));
+            background: #ffffff;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #000000;
+        }
+
+        .date {
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.35);
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #000000;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        li {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: rgba(0, 0, 0, 0.08);
+            padding: 16px 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(0, 0, 0, 0.12);
+            font-size: 13px;
+            color: rgba(0, 0, 0, 0.35);
+        }
+
+        a {
+            color: #078A52;
+            text-decoration: none;
+        }
+
+        /* Dark mode — aligned with DesignTheme tokens */
+        @media (prefers-color-scheme: dark) {
+            body {
+                color: #FAFAFA;
+                background: #171717;
+            }
+
+            .container {
+                background: #171717;
+            }
+
+            h1, h2 {
+                color: #FAFAFA;
+            }
+
+            p, li {
+                color: #B4B4B4;
+            }
+
+            .date, footer {
+                color: #898989;
+            }
+
+            .highlight {
+                background: #363636;
+            }
+
+            footer {
+                border-top-color: #2E2E2E;
+            }
+
+            a {
+                color: #3ECF8E;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>隱私聲明</h1>
+        <p class="date">生效日期：2026 年 8 月 15 日</p>
+
+        <p>清醒記賬是一款極簡記賬工具。我們深知隱私的重要性，因此從設計之初就踐行以下原則：</p>
+
+        <div class="highlight">
+            <p style="margin-bottom:0;"><strong>核心承諾：您的帳單內容僅保存在您的裝置或私人 iCloud 中；我們僅收集改善 App 所必需的有限使用與技術資料。</strong></p>
+        </div>
+
+        <h2>1. 數據存儲</h2>
+        <p>您的帳單、分類及帳本等記帳內容僅儲存在您的裝置本機；啟用 iCloud 同步時，僅儲存在您的私人 iCloud 中。我們不會讀取或分析您的消費內容，不會推送個人化廣告，也不會出售您的資料。</p>
+
+        <h2>2. iCloud 同步</h2>
+        <p>如果您開啟了 iCloud 同步功能，您的記賬數據會透過 Apple 的 CloudKit 在您的設備間同步。這個過程完全由 Apple 的 iCloud 服務處理，遵循您個人 iCloud 帳戶的隱私和安全策略。我們無法訪問您的 iCloud 數據，也無法查看您的同步內容。</p>
+        <ul>
+            <li>同步透過您私人的 iCloud 帳戶進行</li>
+            <li>數據加密存儲在您的 iCloud 帳戶中</li>
+            <li>我們沒有任何方式訪問或查看這些數據</li>
+            <li>您可以隨時在 iPhone「設定 → 您的名字 → iCloud → iCloud 雲碟」中管理或關閉同步</li>
+        </ul>
+
+        <h2>3. AI 功能</h2>
+        <p>當您使用自然語言記賬或智能匯入功能時，您輸入的文字會傳送到 AI 服務進行語義解析。這些請求僅用於理解您的記賬意圖並返回結構化記賬數據，我們不會在伺服器端保留您的輸入內容。</p>
+
+        <h2>4. 第三方 SDK</h2>
+        <p>本應用啟動時會啟用以下第三方 SDK，用於瞭解功能使用情況、診斷產品問題並改善體驗：</p>
+        <ul>
+          <li><strong>SDK 名稱：</strong>Google Analytics for Firebase</li>
+          <li><strong>使用目的：</strong>App 使用統計、功能效果分析及產品改善</li>
+          <li><strong>營運方：</strong>Google LLC</li>
+          <li><strong>收集的資料類型：</strong>應用程式執行個體識別碼、裝置型號與作業系統、語言和大致地區等裝置或網路資訊、頁面瀏覽與按鈕互動等使用事件，以及訂閱商品、價格、幣別和購買結果等購買事件</li>
+          <li><strong>不收集的內容：</strong>帳單名稱、金額、備註、帳戶餘額、搜尋文字及 AI 輸入內容不會作為分析事件參數傳送</li>
+          <li><strong>廣告與追蹤：</strong>本版本未接入廣告功能，不使用這些資料進行個人化廣告或跨 App 追蹤</li>
+          <li><strong>隱私權政策連結：</strong><a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></li>
+        </ul>
+
+        <h2>5. 數據匯出與刪除</h2>
+        <p>您可以隨時透過應用內的「數據匯入匯出」功能匯出您的所有數據，或直接刪除應用來移除全部本地數據。iCloud 中的數據可以透過 Apple 的 iCloud 管理頁面刪除。</p>
+
+        <h2>6. 聯絡我們</h2>
+        <p>如有任何隱私相關的問題或疑慮，歡迎透過應用內的「幫助與回饋」聯絡我們。</p>
+
+        <footer>
+            <p>清醒記賬 — 您的數據始終屬於您自己。</p>
+        </footer>
+    </div>
+</body>
+</html>

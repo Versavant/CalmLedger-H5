@@ -1,0 +1,78 @@
+{
+  "bucket": "calmledger",
+  "region": "cn-hangzhou",
+  "baseURL": "https://calmledger.oss-cn-hangzhou.aliyuncs.com",
+  "objectNaming": "OSS object names intentionally omit the .html suffix",
+  "locales": {
+    "zh-Hans": {
+      "index": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/index/index_zh-Hans",
+      "privacy": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/privacy/privacy_zh-Hans",
+      "terms": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/terms/terms_zh-Hans"
+    },
+    "zh-Hant": {
+      "index": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/index/index_zh-Hant",
+      "privacy": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/privacy/privacy_zh-Hant",
+      "terms": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/terms/terms_zh-Hant"
+    },
+    "en": {
+      "index": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/index/index_en",
+      "privacy": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/privacy/privacy_en",
+      "terms": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/terms/terms_en"
+    },
+    "ja": {
+      "index": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/index/index_ja",
+      "privacy": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/privacy/privacy_ja",
+      "terms": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/terms/terms_ja"
+    },
+    "ko": {
+      "index": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/index/index_ko",
+      "privacy": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/privacy/privacy_ko",
+      "terms": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/terms/terms_ko"
+    },
+    "fr": {
+      "index": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/index/index_fr",
+      "privacy": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/privacy/privacy_fr",
+      "terms": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/terms/terms_fr"
+    },
+    "de": {
+      "index": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/index/index_de",
+      "privacy": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/privacy/privacy_de",
+      "terms": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/terms/terms_de"
+    },
+    "es": {
+      "index": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/index/index_es",
+      "privacy": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/privacy/privacy_es",
+      "terms": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/terms/terms_es"
+    },
+    "pt": {
+      "index": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/index/index_pt",
+      "privacy": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/privacy/privacy_pt",
+      "terms": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/terms/terms_pt"
+    },
+    "ru": {
+      "index": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/index/index_ru",
+      "privacy": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/privacy/privacy_ru",
+      "terms": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/terms/terms_ru"
+    },
+    "it": {
+      "index": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/index/index_it",
+      "privacy": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/privacy/privacy_it",
+      "terms": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/terms/terms_it"
+    },
+    "nl": {
+      "index": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/index/index_nl",
+      "privacy": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/privacy/privacy_nl",
+      "terms": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/terms/terms_nl"
+    },
+    "pl": {
+      "index": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/index/index_pl",
+      "privacy": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/privacy/privacy_pl",
+      "terms": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/terms/terms_pl"
+    },
+    "tr": {
+      "index": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/index/index_tr",
+      "privacy": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/privacy/privacy_tr",
+      "terms": "https://calmledger.oss-cn-hangzhou.aliyuncs.com/terms/terms_tr"
+    }
+  }
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Informativa sulla Privacy - CalmLedger</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+            line-height: 1.7;
+            color: #000000;
+            background: #ffffff;
+            margin: 0;
+        }
+
+        .container {
+            padding: 40px 24px calc(60px + env(safe-area-inset-bottom, 0px));
+            background: #ffffff;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #000000;
+        }
+
+        .date {
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.35);
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #000000;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        li {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: rgba(0, 0, 0, 0.08);
+            padding: 16px 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(0, 0, 0, 0.12);
+            font-size: 13px;
+            color: rgba(0, 0, 0, 0.35);
+        }
+
+        a {
+            color: #078A52;
+            text-decoration: none;
+        }
+
+        /* Dark mode — aligned with DesignTheme tokens */
+        @media (prefers-color-scheme: dark) {
+            body {
+                color: #FAFAFA;
+                background: #171717;
+            }
+
+            .container {
+                background: #171717;
+            }
+
+            h1, h2 {
+                color: #FAFAFA;
+            }
+
+            p, li {
+                color: #B4B4B4;
+            }
+
+            .date, footer {
+                color: #898989;
+            }
+
+            .highlight {
+                background: #363636;
+            }
+
+            footer {
+                border-top-color: #2E2E2E;
+            }
+
+            a {
+                color: #3ECF8E;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Informativa sulla Privacy</h1>
+        <p class="date">Data di entrata in vigore: 15 agosto 2026</p>
+
+        <p>Contabilità Chiara è uno strumento di contabilità minimalista. Comprendiamo l'importanza della privacy, motivo per cui abbiamo sempre seguito i seguenti principi fin dall'inizio:</p>
+
+        <div class="highlight">
+            <p style="margin-bottom:0;"><strong>Impegno fondamentale: i tuoi contenuti contabili restano sul dispositivo o nel tuo iCloud privato. Raccogliamo solo dati tecnici e di utilizzo limitati, necessari per migliorare l'app.</strong></p>
+        </div>
+
+        <h2>1. Archiviazione dei dati</h2>
+        <p>Transazioni, categorie, registri e altri contenuti contabili sono memorizzati solo sul tuo dispositivo o, se attivi la sincronizzazione, nel tuo iCloud privato. Non leggiamo né analizziamo il contenuto delle tue spese, non mostriamo pubblicità personalizzata e non vendiamo i tuoi dati.</p>
+
+        <h2>2. Sincronizzazione iCloud</h2>
+        <p>Se attivi la sincronizzazione iCloud, i tuoi dati contabili verranno sincronizzati tra i dispositivi tramite CloudKit di Apple. Questo processo è gestito interamente dal servizio iCloud di Apple ed è soggetto alle politiche sulla privacy e sicurezza del tuo account iCloud personale. Non possiamo accedere ai tuoi dati iCloud né visualizzare il contenuto sincronizzato.</p>
+        <ul>
+            <li>La sincronizzazione avviene tramite il tuo account iCloud privato</li><li>I dati sono memorizzati in modo criptato nel tuo account iCloud</li><li>Non abbiamo alcun modo di accedere o visualizzare questi dati</li><li>Puoi gestire o disattivare la sincronizzazione in qualsiasi momento tramite Impostazioni iPhone → Il tuo nome → iCloud → iCloud Drive</li>
+        </ul>
+
+        <h2>3. Funzionalità AI</h2>
+        <p>Quando utilizzi la contabilità in linguaggio naturale o le funzioni di importazione intelligente, il testo inserito viene inviato a un servizio AI per l'analisi semantica. Queste richieste servono esclusivamente a comprendere la tua intenzione contabile e a restituire dati contabili strutturati. Non conserviamo il tuo input lato server.</p>
+
+        <h2>4. SDK di terze parti</h2>
+        <p>Il seguente SDK di terze parti viene attivato all'avvio dell'app per comprendere l'uso delle funzioni, diagnosticare problemi del prodotto e migliorare l'esperienza:</p>
+        <ul>
+            <li><strong>Nome SDK: </strong>Google Analytics for Firebase</li>
+            <li><strong>Scopo: </strong>Misurazione dell'uso, analisi delle funzioni e miglioramento del prodotto</li>
+            <li><strong>Operatore: </strong>Google LLC</li>
+            <li><strong>Dati raccolti: </strong>Identificatori dell'istanza dell'app; informazioni sul dispositivo o sulla rete come modello, sistema operativo, lingua e regione approssimativa; eventi di utilizzo come visualizzazioni delle schermate e interazioni con i pulsanti; eventi di acquisto come prodotto in abbonamento, prezzo, valuta ed esito</li>
+            <li><strong>Contenuti non raccolti: </strong>Nomi e importi delle transazioni, note, saldi, testi di ricerca e input AI non vengono inviati come parametri di analisi</li>
+            <li><strong>Pubblicità e tracciamento: </strong>Questa versione non contiene funzioni pubblicitarie e non usa questi dati per pubblicità personalizzata o tracciamento tra app</li>
+            <li><strong>Link all'informativa: </strong><a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></li>
+        </ul>
+
+        <h2>5. Esportazione ed eliminazione dei dati</h2>
+        <p>Puoi esportare tutti i tuoi dati in qualsiasi momento tramite la funzione "Importa/Esporta" nell'app, oppure semplicemente eliminare l'app per rimuovere tutti i dati locali. I dati in iCloud possono essere eliminati tramite la pagina di gestione iCloud di Apple.</p>
+
+        <h2>6. Contattaci</h2>
+        <p>Per domande o dubbi sulla privacy, contattaci tramite la sezione "Aiuto e feedback" nell'app.</p>
+
+        <footer>
+            <p>Contabilità Chiara — i tuoi dati appartengono sempre a te.</p>
+        </footer>
+    </div>
+</body>
+</html>

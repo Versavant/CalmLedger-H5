@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>개인정보 처리방침 - CalmLedger</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+            line-height: 1.7;
+            color: #000000;
+            background: #ffffff;
+            margin: 0;
+        }
+
+        .container {
+            padding: 40px 24px calc(60px + env(safe-area-inset-bottom, 0px));
+            background: #ffffff;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #000000;
+        }
+
+        .date {
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.35);
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #000000;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        li {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: rgba(0, 0, 0, 0.08);
+            padding: 16px 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(0, 0, 0, 0.12);
+            font-size: 13px;
+            color: rgba(0, 0, 0, 0.35);
+        }
+
+        a {
+            color: #078A52;
+            text-decoration: none;
+        }
+
+        /* Dark mode — aligned with DesignTheme tokens */
+        @media (prefers-color-scheme: dark) {
+            body {
+                color: #FAFAFA;
+                background: #171717;
+            }
+
+            .container {
+                background: #171717;
+            }
+
+            h1, h2 {
+                color: #FAFAFA;
+            }
+
+            p, li {
+                color: #B4B4B4;
+            }
+
+            .date, footer {
+                color: #898989;
+            }
+
+            .highlight {
+                background: #363636;
+            }
+
+            footer {
+                border-top-color: #2E2E2E;
+            }
+
+            a {
+                color: #3ECF8E;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>개인정보 처리방침</h1>
+        <p class="date">시행일: 2026년 8월 15일</p>
+
+        <p>CalmLedger는 미니멀한 회계 도구입니다. 우리는 개인정보 보호의 중요성을 잘 알고 있으며, 설계 초기부터 다음 원칙을 실천해 왔습니다.</p>
+
+        <div class="highlight">
+            <p style="margin-bottom:0;"><strong>핵심 약속: 장부 내용은 기기 또는 개인 iCloud에만 보관됩니다. 앱 개선에 필요한 제한적인 사용 및 기술 데이터만 수집합니다.</strong></p>
+        </div>
+
+        <h2>1. 데이터 저장</h2>
+        <p>거래, 카테고리, 장부 및 기타 회계 내용은 기기에만 저장되며, iCloud 동기화를 켠 경우 개인 iCloud에 저장됩니다. 당사는 지출 내용을 읽거나 분석하지 않으며, 맞춤형 광고를 제공하거나 데이터를 판매하지 않습니다.</p>
+
+        <h2>2. iCloud 동기화</h2>
+        <p>iCloud 동기화를 활성화하면 귀하의 회계 데이터가 Apple의 CloudKit을 통해 기기 간에 동기화됩니다. 이 과정은 전적으로 Apple의 iCloud 서비스에 의해 처리되며, 귀하의 개인 iCloud 계정의 개인정보 보호 및 보안 정책을 따릅니다. 당사는 귀하의 iCloud 데이터에 접근하거나 동기화된 콘텐츠를 볼 수 없습니다.</p>
+        <ul>
+            <li>동기화는 귀하의 개인 iCloud 계정을 통해 이루어집니다</li>
+            <li>데이터는 귀하의 iCloud 계정에 암호화되어 저장됩니다</li>
+            <li>당사는 이 데이터에 접근하거나 볼 수 있는 방법이 없습니다</li>
+            <li>iPhone 설정 → 사용자 이름 → iCloud → iCloud Drive에서 언제든지 동기화를 관리하거나 비활성화할 수 있습니다</li>
+        </ul>
+
+        <h2>3. AI 기능</h2>
+        <p>자연어 회계 또는 스마트 가져오기 기능을 사용하면 입력한 텍스트가 의미 분석을 위해 AI 서비스로 전송됩니다. 이러한 요청은 오직 회계 의도를 이해하고 구조화된 회계 데이터를 반환하는 데만 사용되며, 서버 측에서 입력 내용을 보관하지 않습니다.</p>
+
+        <h2>4. 제3자 SDK</h2>
+        <p>기능 사용 현황 파악, 제품 문제 진단 및 경험 개선을 위해 앱 시작 시 다음 제3자 SDK가 활성화됩니다.</p>
+        <ul>
+          <li><strong>SDK 이름: </strong>Google Analytics for Firebase</li>
+          <li><strong>사용 목적: </strong>앱 사용 측정, 기능 분석 및 제품 개선</li>
+          <li><strong>운영사: </strong>Google LLC</li>
+          <li><strong>수집 데이터: </strong>앱 인스턴스 식별자, 기기 모델·운영체제·언어·대략적인 지역 등의 기기 또는 네트워크 정보, 화면 조회와 버튼 상호작용 등의 사용 이벤트, 구독 상품·가격·통화·구매 결과 등의 구매 이벤트</li>
+          <li><strong>수집하지 않는 내용: </strong>거래명, 금액, 메모, 계좌 잔액, 검색 텍스트 및 AI 입력은 분석 이벤트 매개변수로 전송되지 않습니다</li>
+          <li><strong>광고 및 추적: </strong>이 버전에는 광고 기능이 없으며 이 데이터를 맞춤형 광고나 앱 간 추적에 사용하지 않습니다</li>
+          <li><strong>개인정보 처리방침 링크: </strong><a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></li>
+        </ul>
+
+        <h2>5. 데이터 내보내기 및 삭제</h2>
+        <p>앱 내 "데이터 가져오기/내보내기" 기능을 통해 언제든지 모든 데이터를 내보내거나, 앱을 삭제하여 모든 로컬 데이터를 제거할 수 있습니다. iCloud의 데이터는 Apple의 iCloud 관리 페이지를 통해 삭제할 수 있습니다.</p>
+
+        <h2>6. 문의하기</h2>
+        <p>개인정보 관련 질문이나 우려 사항이 있으시면 앱 내 "도움말 및 피드백"을 통해 문의해 주세요.</p>
+
+        <footer>
+            <p>CalmLedger — 귀하의 데이터는 항상 귀하의 것입니다.</p>
+        </footer>
+    </div>
+</body>
+</html>

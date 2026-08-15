@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Gizlilik Politikası - CalmLedger</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+            line-height: 1.7;
+            color: #000000;
+            background: #ffffff;
+            margin: 0;
+        }
+
+        .container {
+            padding: 40px 24px calc(60px + env(safe-area-inset-bottom, 0px));
+            background: #ffffff;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #000000;
+        }
+
+        .date {
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.35);
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #000000;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        li {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: rgba(0, 0, 0, 0.08);
+            padding: 16px 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(0, 0, 0, 0.12);
+            font-size: 13px;
+            color: rgba(0, 0, 0, 0.35);
+        }
+
+        a {
+            color: #078A52;
+            text-decoration: none;
+        }
+
+        /* Dark mode — aligned with DesignTheme tokens */
+        @media (prefers-color-scheme: dark) {
+            body {
+                color: #FAFAFA;
+                background: #171717;
+            }
+
+            .container {
+                background: #171717;
+            }
+
+            h1, h2 {
+                color: #FAFAFA;
+            }
+
+            p, li {
+                color: #B4B4B4;
+            }
+
+            .date, footer {
+                color: #898989;
+            }
+
+            .highlight {
+                background: #363636;
+            }
+
+            footer {
+                border-top-color: #2E2E2E;
+            }
+
+            a {
+                color: #3ECF8E;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Gizlilik Politikası</h1>
+        <p class="date">Yürürlük Tarihi: 15 Ağustos 2026</p>
+
+        <p>Net Defter minimalist bir defter tutma aracıdır. Gizliliğin önemini anlıyoruz ve bu nedenle en başından beri şu ilkelere bağlı kaldık:</p>
+
+        <div class="highlight">
+            <p style="margin-bottom:0;"><strong>Temel taahhüt: Muhasebe içeriğiniz cihazınızda veya özel iCloud hesabınızda kalır. Yalnızca uygulamayı geliştirmek için gerekli sınırlı kullanım ve teknik verileri toplarız.</strong></p>
+        </div>
+
+        <h2>1. Veri Depolama</h2>
+        <p>İşlemleriniz, kategorileriniz, defterleriniz ve diğer muhasebe içeriğiniz yalnızca cihazınızda veya senkronizasyonu açarsanız özel iCloud hesabınızda saklanır. Harcama içeriğinizi okumaz veya analiz etmeyiz, kişiselleştirilmiş reklam göstermeyiz ve verilerinizi satmayız.</p>
+
+        <h2>2. iCloud Senkronizasyonu</h2>
+        <p>iCloud senkronizasyonunu etkinleştirirseniz, defter tutma verileriniz Apple'ın CloudKit hizmeti aracılığıyla cihazlarınız arasında senkronize edilir. Bu süreç tamamen Apple'ın iCloud hizmeti tarafından yönetilir ve kişisel iCloud hesabınızın gizlilik ve güvenlik politikalarına tabidir. iCloud verilerinize erişemeyiz veya senkronize edilen içeriği göremeyiz.</p>
+        <ul>
+            <li>Senkronizasyon, özel iCloud hesabınız üzerinden gerçekleşir</li><li>Veriler, iCloud hesabınızda şifrelenmiş olarak saklanır</li><li>Bu verilere erişmemizin veya görüntülememizin hiçbir yolu yoktur</li><li>Senkronizasyonu istediğiniz zaman iPhone Ayarları → Adınız → iCloud → iCloud Drive üzerinden yönetebilir veya kapatabilirsiniz</li>
+        </ul>
+
+        <h2>3. AI Özellikleri</h2>
+        <p>Doğal dilde defter tutma veya akıllı içe aktarma özelliklerini kullandığınızda, girdiğiniz metin anlamsal analiz için bir AI hizmetine gönderilir. Bu istekler yalnızca defter tutma niyetinizi anlamak ve yapılandırılmış defter verileri döndürmek için kullanılır. Girdinizi sunucu tarafında saklamayız.</p>
+
+        <h2>4. Üçüncü Taraf SDK'ları</h2>
+        <p>Aşağıdaki üçüncü taraf SDK, özellik kullanımını anlamak, ürün sorunlarını teşhis etmek ve deneyimi iyileştirmek amacıyla uygulama başlatıldığında etkinleştirilir:</p>
+        <ul>
+            <li><strong>SDK Adı: </strong>Google Analytics for Firebase</li>
+            <li><strong>Amaç: </strong>Uygulama kullanımını ölçme, özellik analizi ve ürün geliştirme</li>
+            <li><strong>İşletmeci: </strong>Google LLC</li>
+            <li><strong>Toplanan veriler: </strong>Uygulama örneği tanımlayıcıları; cihaz modeli, işletim sistemi, dil ve yaklaşık bölge gibi cihaz veya ağ bilgileri; ekran görüntüleme ve düğme etkileşimi gibi kullanım olayları; abonelik ürünü, fiyat, para birimi ve satın alma sonucu gibi satın alma olayları</li>
+            <li><strong>Toplanmayan içerik: </strong>İşlem adları ve tutarları, notlar, hesap bakiyeleri, arama metinleri ve AI girdileri analiz olayı parametresi olarak gönderilmez</li>
+            <li><strong>Reklam ve izleme: </strong>Bu sürüm reklam özellikleri içermez ve bu verileri kişiselleştirilmiş reklam veya uygulamalar arası izleme için kullanmaz</li>
+            <li><strong>Gizlilik politikası bağlantısı: </strong><a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></li>
+        </ul>
+
+        <h2>5. Veri Dışa Aktarma ve Silme</h2>
+        <p>Tüm verilerinizi uygulama içindeki "İçe/Dışa Aktarma" özelliği ile istediğiniz zaman dışa aktarabilir veya tüm yerel verileri silmek için uygulamayı kaldırabilirsiniz. iCloud verileri, Apple'ın iCloud yönetim sayfası üzerinden silinebilir.</p>
+
+        <h2>6. Bize Ulaşın</h2>
+        <p>Gizlilikle ilgili sorularınız veya endişeleriniz için lütfen uygulama içindeki "Yardım ve geri bildirim" bölümü üzerinden bize ulaşın.</p>
+
+        <footer>
+            <p>Net Defter — verileriniz her zaman size aittir.</p>
+        </footer>
+    </div>
+</body>
+</html>

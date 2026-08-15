@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>CalmLedger</title>
+    <style>
+        :root { color-scheme: light dark; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+            line-height: 1.7;
+            color: #000000;
+            background: #ffffff;
+        }
+        .container {
+            padding: 60px 24px calc(60px + env(safe-area-inset-bottom, 0px));
+            text-align: center;
+            min-height: 100vh;
+        }
+        h1 { font-size: 32px; font-weight: 700; margin-bottom: 12px; color: #000000; }
+        .subtitle { font-size: 16px; color: rgba(0,0,0,0.5); margin-bottom: 48px; }
+        .section { margin-bottom: 32px; }
+        .section h2 { font-size: 18px; font-weight: 600; margin-bottom: 8px; color: #000000; }
+        .section p { font-size: 15px; color: rgba(0,0,0,0.55); max-width: 320px; margin: 0 auto; }
+        a { color: #078A52; text-decoration: none; font-weight: 500; }
+        a:hover { text-decoration: underline; }
+        footer { margin-top: 48px; font-size: 13px; color: rgba(0,0,0,0.3); }
+        @media (prefers-color-scheme: dark) {
+            body { color: #FAFAFA; background: #171717; }
+            h1, .section h2 { color: #FAFAFA; }
+            .subtitle, .section p { color: #898989; }
+            footer { color: #5C5C5E; }
+            a { color: #3ECF8E; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CalmLedger</h1>
+        <p class="subtitle">KI-Sprachbuchhaltung — erfassen Sie jede Transaktion auf die natürlichste Weise.</p>
+
+        <div class="section">
+            <h2>Technischer Support</h2>
+            <p>Bei Fragen oder Anregungen senden Sie uns bitte Feedback in der App über „Hilfe & Feedback → Kontakt“. Wir antworten so schnell wie möglich.</p>
+        </div>
+
+        <div class="section">
+            <h2>Datenschutzrichtlinie</h2>
+            <p>Wir verwenden das UMeng-Analytics-SDK für die Datenanalyse. Erfasst werden nur Gerätekennungen und Netzwerkinformationen, niemals Ihre sensiblen persönlichen Daten oder Buchhaltungsinhalte.</p>
+            <p><a href="https://calmledger.oss-cn-hangzhou.aliyuncs.com/privacy/privacy_de">Vollständige Datenschutzrichtlinie anzeigen →</a></p>
+        </div>
+
+        <div class="section">
+            <h2>Nutzungsbedingungen</h2>
+            <p><a href="https://calmledger.oss-cn-hangzhou.aliyuncs.com/terms/terms_de">Vollständige Nutzungsbedingungen anzeigen →</a></p>
+        </div>
+
+        <footer>© 2026 CalmLedger. All rights reserved.</footer>
+    </div>
+</body>
+</html>

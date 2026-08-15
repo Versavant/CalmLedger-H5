@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Politique de confidentialité - CalmLedger</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+            line-height: 1.7;
+            color: #000000;
+            background: #ffffff;
+            margin: 0;
+        }
+
+        .container {
+            padding: 40px 24px calc(60px + env(safe-area-inset-bottom, 0px));
+            background: #ffffff;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #000000;
+        }
+
+        .date {
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.35);
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #000000;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        li {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: rgba(0, 0, 0, 0.08);
+            padding: 16px 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(0, 0, 0, 0.12);
+            font-size: 13px;
+            color: rgba(0, 0, 0, 0.35);
+        }
+
+        a {
+            color: #078A52;
+            text-decoration: none;
+        }
+
+        /* Dark mode — aligned with DesignTheme tokens */
+        @media (prefers-color-scheme: dark) {
+            body {
+                color: #FAFAFA;
+                background: #171717;
+            }
+
+            .container {
+                background: #171717;
+            }
+
+            h1, h2 {
+                color: #FAFAFA;
+            }
+
+            p, li {
+                color: #B4B4B4;
+            }
+
+            .date, footer {
+                color: #898989;
+            }
+
+            .highlight {
+                background: #363636;
+            }
+
+            footer {
+                border-top-color: #2E2E2E;
+            }
+
+            a {
+                color: #3ECF8E;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Politique de confidentialité</h1>
+        <p class="date">Date d'entrée en vigueur : 15 août 2026</p>
+
+        <p>CalmLedger est un outil de comptabilité minimaliste. Nous comprenons l'importance de la confidentialité, c'est pourquoi nous avons appliqué les principes suivants dès la conception :</p>
+
+        <div class="highlight">
+            <p style="margin-bottom:0;"><strong>Engagement fondamental : Votre contenu comptable reste sur votre appareil ou dans votre iCloud privé. Nous ne collectons que des données techniques et d'utilisation limitées, nécessaires à l'amélioration de l'application.</strong></p>
+        </div>
+
+        <h2>1. Stockage des données</h2>
+        <p>Vos transactions, catégories, comptes et autres contenus comptables sont stockés uniquement sur votre appareil ou, si la synchronisation est activée, dans votre iCloud privé. Nous ne lisons ni n'analysons le contenu de vos dépenses, ne diffusons pas de publicité personnalisée et ne vendons pas vos données.</p>
+
+        <h2>2. Synchronisation iCloud</h2>
+        <p>Si vous activez la synchronisation iCloud, vos données comptables seront synchronisées entre vos appareils via CloudKit d'Apple. Ce processus est entièrement géré par le service iCloud d'Apple et est soumis aux politiques de confidentialité et de sécurité de votre compte iCloud personnel. Nous ne pouvons pas accéder à vos données iCloud ni consulter votre contenu synchronisé.</p>
+        <ul>
+            <li>La synchronisation s'effectue via votre compte iCloud privé</li>
+            <li>Les données sont stockées chiffrées dans votre compte iCloud</li>
+            <li>Nous n'avons aucun moyen d'accéder à ces données ou de les consulter</li>
+            <li>Vous pouvez gérer ou désactiver la synchronisation à tout moment via Réglages → Votre nom → iCloud → iCloud Drive</li>
+        </ul>
+
+        <h2>3. Fonctionnalités IA</h2>
+        <p>Lorsque vous utilisez la comptabilité en langage naturel ou la fonction d'importation intelligente, le texte que vous saisissez est envoyé à un service d'IA pour analyse sémantique. Ces requêtes sont utilisées uniquement pour comprendre votre intention comptable et renvoyer des données comptables structurées. Nous ne conservons pas votre saisie côté serveur.</p>
+
+        <h2>4. SDK tiers</h2>
+        <p>Le SDK tiers suivant est activé au démarrage de l'application afin de comprendre l'utilisation des fonctionnalités, diagnostiquer les problèmes du produit et améliorer l'expérience :</p>
+        <ul>
+          <li><strong>Nom du SDK : </strong>Google Analytics for Firebase</li>
+          <li><strong>Finalité : </strong>Mesure de l'utilisation, analyse des fonctionnalités et amélioration du produit</li>
+          <li><strong>Opérateur : </strong>Google LLC</li>
+          <li><strong>Données collectées : </strong>Identifiants d'instance de l'application ; informations sur l'appareil ou le réseau telles que modèle, système d'exploitation, langue et région approximative ; événements d'utilisation tels que vues d'écran et interactions avec les boutons ; et événements d'achat tels que produit d'abonnement, prix, devise et résultat</li>
+          <li><strong>Contenu non collecté : </strong>Les noms et montants des transactions, notes, soldes, textes de recherche et saisies IA ne sont pas envoyés comme paramètres d'analyse</li>
+          <li><strong>Publicité et suivi : </strong>Cette version ne contient aucune fonction publicitaire et n'utilise pas ces données à des fins de publicité personnalisée ou de suivi entre applications</li>
+          <li><strong>Lien vers la politique de confidentialité : </strong><a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></li>
+        </ul>
+
+        <h2>5. Exportation et suppression des données</h2>
+        <p>Vous pouvez exporter toutes vos données à tout moment via la fonction « Importer / Exporter » de l'application, ou simplement supprimer l'application pour supprimer toutes les données locales. Les données dans iCloud peuvent être supprimées via la page de gestion iCloud d'Apple.</p>
+
+        <h2>6. Nous contacter</h2>
+        <p>Si vous avez des questions ou des préoccupations concernant la confidentialité, n'hésitez pas à nous contacter via la section « Aide et commentaires » de l'application.</p>
+
+        <footer>
+            <p>CalmLedger — Vos données vous appartiennent toujours.</p>
+        </footer>
+    </div>
+</body>
+</html>

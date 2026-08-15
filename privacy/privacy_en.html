@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Privacy Policy - CalmLedger</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+            line-height: 1.7;
+            color: #000000;
+            background: #ffffff;
+            margin: 0;
+        }
+
+        .container {
+            padding: 40px 24px calc(60px + env(safe-area-inset-bottom, 0px));
+            background: #ffffff;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #000000;
+        }
+
+        .date {
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.35);
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #000000;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        li {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: rgba(0, 0, 0, 0.08);
+            padding: 16px 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(0, 0, 0, 0.12);
+            font-size: 13px;
+            color: rgba(0, 0, 0, 0.35);
+        }
+
+        a {
+            color: #078A52;
+            text-decoration: none;
+        }
+
+        /* Dark mode — aligned with DesignTheme tokens */
+        @media (prefers-color-scheme: dark) {
+            body {
+                color: #FAFAFA;
+                background: #171717;
+            }
+
+            .container {
+                background: #171717;
+            }
+
+            h1, h2 {
+                color: #FAFAFA;
+            }
+
+            p, li {
+                color: #B4B4B4;
+            }
+
+            .date, footer {
+                color: #898989;
+            }
+
+            .highlight {
+                background: #363636;
+            }
+
+            footer {
+                border-top-color: #2E2E2E;
+            }
+
+            a {
+                color: #3ECF8E;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="date">Effective Date: August 15, 2026</p>
+
+        <p>CalmLedger is a minimalist bookkeeping tool. We understand the importance of privacy, which is why we have adhered to the following principles from the very beginning:</p>
+
+        <div class="highlight">
+            <p style="margin-bottom:0;"><strong>Core Commitment: Your bookkeeping content stays on your device or in your private iCloud. We collect only limited usage and technical data needed to improve the app.</strong></p>
+        </div>
+
+        <h2>1. Data Storage</h2>
+        <p>Your transactions, categories, ledgers, and other bookkeeping content are stored only on your device or, when iCloud sync is enabled, in your private iCloud. We do not read or analyze your spending content, serve personalized advertising, or sell your data.</p>
+
+        <h2>2. iCloud Sync</h2>
+        <p>If you enable iCloud sync, your bookkeeping data will be synced across your devices via Apple's CloudKit. This process is entirely handled by Apple's iCloud service and is subject to the privacy and security policies of your personal iCloud account. We cannot access your iCloud data or view your synced content.</p>
+        <ul>
+            <li>Sync occurs through your private iCloud account</li>
+            <li>Data is stored encrypted in your iCloud account</li>
+            <li>We have no way to access or view this data</li>
+            <li>You can manage or disable sync at any time via iPhone Settings → Your Name → iCloud → iCloud Drive</li>
+        </ul>
+
+        <h2>3. AI Features</h2>
+        <p>When you use natural language bookkeeping or smart import features, the text you enter is sent to an AI service for semantic parsing. These requests are used solely to understand your bookkeeping intent and return structured bookkeeping data. We do not retain your input on the server side.</p>
+
+        <h2>4. Third-Party SDKs</h2>
+        <p>The following third-party SDK is enabled when the app starts to understand feature usage, diagnose product issues, and improve the experience:</p>
+        <ul>
+          <li><strong>SDK Name: </strong>Google Analytics for Firebase</li>
+          <li><strong>Purpose: </strong>App usage measurement, feature analysis, and product improvement</li>
+          <li><strong>Operator: </strong>Google LLC</li>
+          <li><strong>Data Collected: </strong>App instance identifiers; device or network information such as device model, operating system, language, and approximate region; usage events such as screen views and button interactions; and purchase events such as subscription product, price, currency, and purchase result</li>
+          <li><strong>Content Not Collected: </strong>Transaction names, amounts, notes, account balances, search text, and AI input are not sent as analytics event parameters</li>
+          <li><strong>Advertising and Tracking: </strong>This version contains no advertising features and does not use this data for personalized advertising or cross-app tracking</li>
+          <li><strong>Privacy Policy Link: </strong><a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></li>
+        </ul>
+
+        <h2>5. Data Export and Deletion</h2>
+        <p>You can export all your data at any time via the "Import & Export" feature in the app, or simply delete the app to remove all local data. Data in iCloud can be deleted via Apple's iCloud management page.</p>
+
+        <h2>6. Contact Us</h2>
+        <p>If you have any privacy-related questions or concerns, please reach out to us via the "Help & Feedback" section in the app.</p>
+
+        <footer>
+            <p>CalmLedger — Your data always belongs to you.</p>
+        </footer>
+    </div>
+</body>
+</html>

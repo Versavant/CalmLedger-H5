@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Privacybeleid - CalmLedger</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+            line-height: 1.7;
+            color: #000000;
+            background: #ffffff;
+            margin: 0;
+        }
+
+        .container {
+            padding: 40px 24px calc(60px + env(safe-area-inset-bottom, 0px));
+            background: #ffffff;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #000000;
+        }
+
+        .date {
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.35);
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #000000;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        li {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: rgba(0, 0, 0, 0.08);
+            padding: 16px 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(0, 0, 0, 0.12);
+            font-size: 13px;
+            color: rgba(0, 0, 0, 0.35);
+        }
+
+        a {
+            color: #078A52;
+            text-decoration: none;
+        }
+
+        /* Dark mode — aligned with DesignTheme tokens */
+        @media (prefers-color-scheme: dark) {
+            body {
+                color: #FAFAFA;
+                background: #171717;
+            }
+
+            .container {
+                background: #171717;
+            }
+
+            h1, h2 {
+                color: #FAFAFA;
+            }
+
+            p, li {
+                color: #B4B4B4;
+            }
+
+            .date, footer {
+                color: #898989;
+            }
+
+            .highlight {
+                background: #363636;
+            }
+
+            footer {
+                border-top-color: #2E2E2E;
+            }
+
+            a {
+                color: #3ECF8E;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacybeleid</h1>
+        <p class="date">Ingangsdatum: 15 augustus 2026</p>
+
+        <p>Helder Boekhouden is een minimalistisch boekhoudhulpmiddel. We begrijpen het belang van privacy en hebben daarom vanaf het begin de volgende principes gehanteerd:</p>
+
+        <div class="highlight">
+            <p style="margin-bottom:0;"><strong>Kernbelofte: je boekhoudinhoud blijft op je apparaat of in je privé-iCloud. We verzamelen alleen beperkte gebruiks- en technische gegevens die nodig zijn om de app te verbeteren.</strong></p>
+        </div>
+
+        <h2>1. Gegevensopslag</h2>
+        <p>Je transacties, categorieën, boeken en andere boekhoudinhoud worden alleen op je apparaat opgeslagen of, als je synchronisatie inschakelt, in je privé-iCloud. We lezen of analyseren de inhoud van je uitgaven niet, tonen geen gepersonaliseerde advertenties en verkopen je gegevens niet.</p>
+
+        <h2>2. iCloud-synchronisatie</h2>
+        <p>Als je iCloud-synchronisatie inschakelt, worden je boekhoudgegevens via CloudKit van Apple tussen je apparaten gesynchroniseerd. Dit proces wordt volledig beheerd door de iCloud-service van Apple en valt onder het privacy- en beveiligingsbeleid van je persoonlijke iCloud-account. We hebben geen toegang tot je iCloud-gegevens en kunnen de gesynchroniseerde inhoud niet bekijken.</p>
+        <ul>
+            <li>Synchronisatie verloopt via je privé-iCloud-account</li><li>Gegevens worden versleuteld opgeslagen in je iCloud-account</li><li>We hebben geen enkele manier om deze gegevens te openen of te bekijken</li><li>Je kunt synchronisatie op elk moment beheren of uitschakelen via iPhone Instellingen → Jouw naam → iCloud → iCloud Drive</li>
+        </ul>
+
+        <h2>3. AI-functies</h2>
+        <p>Wanneer je natuurlijke-taalboekhouding of slimme importfuncties gebruikt, wordt de door jou ingevoerde tekst naar een AI-service gestuurd voor semantische analyse. Deze verzoeken dienen uitsluitend om je boekhoudintentie te begrijpen en gestructureerde boekhoudgegevens terug te geven. We bewaren je invoer niet aan de serverzijde.</p>
+
+        <h2>4. SDK's van derden</h2>
+        <p>De volgende SDK van derden wordt bij het starten van de app ingeschakeld om functiegebruik te begrijpen, productproblemen te diagnosticeren en de ervaring te verbeteren:</p>
+        <ul>
+            <li><strong>SDK-naam: </strong>Google Analytics for Firebase</li>
+            <li><strong>Doel: </strong>Meting van appgebruik, functieanalyse en productverbetering</li>
+            <li><strong>Exploitant: </strong>Google LLC</li>
+            <li><strong>Verzamelde gegevens: </strong>App-instantie-identificatoren; apparaat- of netwerkinformatie zoals model, besturingssysteem, taal en globale regio; gebruiksgebeurtenissen zoals schermweergaven en knopinteracties; en aankoopgebeurtenissen zoals abonnementsproduct, prijs, valuta en aankoopresultaat</li>
+            <li><strong>Niet verzamelde inhoud: </strong>Transactienamen, bedragen, notities, rekeningsaldi, zoektekst en AI-invoer worden niet als analyseparameters verzonden</li>
+            <li><strong>Reclame en tracking: </strong>Deze versie bevat geen advertentiefuncties en gebruikt deze gegevens niet voor gepersonaliseerde reclame of tracking tussen apps</li>
+            <li><strong>Link naar privacybeleid: </strong><a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></li>
+        </ul>
+
+        <h2>5. Gegevens exporteren en verwijderen</h2>
+        <p>Je kunt op elk moment al je gegevens exporteren via de functie "Importeren/Exporteren" in de app, of gewoon de app verwijderen om alle lokale gegevens te wissen. Gegevens in iCloud kunnen worden verwijderd via de iCloud-beheerpagina van Apple.</p>
+
+        <h2>6. Contact opnemen</h2>
+        <p>Voor privacyvragen of -zorgen kun je contact met ons opnemen via de sectie "Help en feedback" in de app.</p>
+
+        <footer>
+            <p>Helder Boekhouden — je gegevens blijven altijd van jou.</p>
+        </footer>
+    </div>
+</body>
+</html>

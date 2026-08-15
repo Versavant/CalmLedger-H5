@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Hizmet Şartları - CalmLedger</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+            line-height: 1.7;
+            color: #000000;
+            background: #ffffff;
+            margin: 0;
+        }
+
+        .container {
+            padding: 40px 24px calc(60px + env(safe-area-inset-bottom, 0px));
+            background: #ffffff;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #000000;
+        }
+
+        .date {
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.35);
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #000000;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        li {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: rgba(0, 0, 0, 0.08);
+            padding: 16px 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(0, 0, 0, 0.12);
+            font-size: 13px;
+            color: rgba(0, 0, 0, 0.35);
+        }
+
+        a {
+            color: #078A52;
+            text-decoration: none;
+        }
+
+        /* Dark mode — aligned with DesignTheme tokens */
+        @media (prefers-color-scheme: dark) {
+            body {
+                color: #FAFAFA;
+                background: #171717;
+            }
+
+            .container {
+                background: #171717;
+            }
+
+            h1, h2 {
+                color: #FAFAFA;
+            }
+
+            p, li {
+                color: #B4B4B4;
+            }
+
+            .date, footer {
+                color: #898989;
+            }
+
+            .highlight {
+                background: #363636;
+            }
+
+            footer {
+                border-top-color: #2E2E2E;
+            }
+
+            a {
+                color: #3ECF8E;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hizmet Şartları</h1>
+        <p class="date">Yürürlük Tarihi: 19 Haziran 2026</p>
+
+        <p>Net Defter'e (bundan sonra "Uygulama") hoş geldiniz. Uygulamayı kullanarak aşağıdaki Hizmet Şartlarını kabul etmiş olursunuz. Lütfen dikkatlice okuyun.</p>
+
+        <h2>1. Hizmet Açıklaması</h2>
+        <p>Net Defter, aşağıdaki hizmetleri sunan akıllı bir defter tutma aracıdır:</p>
+        <ul>
+            <li>Temel defter tutma özellikleri (ücretsiz)</li>
+            <li>AI sesli muhasebe, iCloud çok cihazlı senkronizasyon, CSV dışa aktarma, çoklu para birimi desteği, çoklu defter yönetimi ve diğer gelişmiş özellikler (abonelikle kullanılabilir)</li>
+        </ul>
+
+        <h2>2. Abonelik Hizmeti</h2>
+        <p>Uygulama, otomatik yenilenen abonelik hizmetleri sunar. Abonelikler — Plus ve Pro — olmak üzere iki düzeyde mevcuttur ve her birinin aylık ve yıllık seçenekleri vardır.</p>
+        <ul>
+            <li><strong>Otomatik yenileme: </strong>abonelikler, mevcut abonelik döneminin bitiminden en az 24 saat önce iptal edilmedikçe otomatik olarak yenilenir</li><li><strong>Faturalandırma: </strong>Apple, mevcut abonelik döneminin bitiminden önceki 24 saat içinde Apple ID hesabınızdan ücret tahsil eder</li><li><strong>İptal: </strong>otomatik yenilemeyi iPhone Ayarlar → Adınız → Abonelikler veya App Store abonelik yönetimi sayfası üzerinden istediğiniz zaman iptal edebilirsiniz. İptalden sonra, ödenen abonelik döneminin geri kalanı boyunca erişiminiz devam eder</li><li><strong>Fiyat değişiklikleri: </strong>fiyatlar ayarlanırsa, yenileme yalnızca onayınızla devam eder</li>
+        </ul>
+
+        <h2>3. Ücretsiz Deneme</h2>
+        <p>Yeni kullanıcılar, ilk kurulumda sınırlı sayıda ücretsiz AI sesli muhasebe denemesi alır. Ücretsiz kota tükendiğinde, AI özelliklerini kullanmaya devam etmek için Pro aboneliği gerekir. Ücretsiz denemeler paraya çevrilemez ve devredilemez.</p>
+
+        <h2>4. Kullanıcı Davranışı</h2>
+        <p>Uygulamayı kullanarak şunları kabul edersiniz:</p>
+        <ul>
+            <li>Uygulamayı yasadışı faaliyetler için kullanmamak</li><li>Uygulamayı kırmaya, tersine mühendislik yapmaya veya normal çalışmasına müdahale etmeye çalışmamak</li><li>AI hizmetini otomatik komut dosyaları veya başka anormal yollarla kötüye kullanmamak</li><li>Girdiğiniz ve dışa aktardığınız tüm verilerin sorumluluğunu üstlenmek</li>
+        </ul>
+
+        <h2>5. İade Politikası</h2>
+        <p>Uygulama Apple App Store üzerinden satılır ve tüm ödemeler ile iadeler Apple tarafından yönetilir. İade talep etmek için lütfen Apple'ın "Bir Sorun Bildir" sayfası üzerinden talepte bulunun. Apple, talebinizi iade politikasına göre işleme alacaktır.</p>
+
+        <h2>6. Sorumluluk Reddi</h2>
+        <p>Uygulama, ticari elverişlilik, belirli bir amaca uygunluk veya ihlal etmeme garantileri dahil ancak bunlarla sınırlı olmamak üzere, hiçbir açık veya zımni garanti olmaksızın "olduğu gibi" sunulur. AI ayrıştırmanın doğruluğunu sağlamaya çalışsak da %100 doğruluk garanti edemeyiz ve AI ayrıştırma sonuçları yalnızca referans içindir.</p>
+        <ul>
+            <li>Hizmetin kesintisiz, zamanında, güvenli veya hatasız olacağını garanti etmiyoruz</li><li>Uygulamayı kullanımınızın kendi riskinizde olduğunu anlar ve kabul edersiniz</li><li>Yasanın izin verdiği azami ölçüde, Net Defter ve geliştiricileri, Uygulamayı kullanımınızdan kaynaklanan hiçbir dolaylı, arızi, özel, sonuçsal veya cezai zarardan sorumlu tutulamaz</li><li>AI özellikleri üçüncü taraf hizmetlere bağlıdır ve ağ sorunları, hizmet sağlayıcı arızaları veya diğer nedenlerle geçici olarak kullanılamayabilir</li>
+        </ul>
+
+        <h2>7. Fikri Mülkiyet</h2>
+        <p>Uygulama ve içeriğine ilişkin tüm haklar (kod, arayüz tasarımı, simgeler ve metin dahil ancak bunlarla sınırlı olmamak üzere) Net Defter geliştiricisine aittir. Uygulamanın hiçbir bölümü açık izin olmadan kopyalanamaz, değiştirilemez veya dağıtılamaz.</p>
+
+        <footer>
+            <p>© 2026 CalmLedger. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

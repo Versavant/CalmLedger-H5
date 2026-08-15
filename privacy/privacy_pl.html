@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Polityka prywatności - CalmLedger</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+            line-height: 1.7;
+            color: #000000;
+            background: #ffffff;
+            margin: 0;
+        }
+
+        .container {
+            padding: 40px 24px calc(60px + env(safe-area-inset-bottom, 0px));
+            background: #ffffff;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #000000;
+        }
+
+        .date {
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.35);
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #000000;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        li {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: rgba(0, 0, 0, 0.08);
+            padding: 16px 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(0, 0, 0, 0.12);
+            font-size: 13px;
+            color: rgba(0, 0, 0, 0.35);
+        }
+
+        a {
+            color: #078A52;
+            text-decoration: none;
+        }
+
+        /* Dark mode — aligned with DesignTheme tokens */
+        @media (prefers-color-scheme: dark) {
+            body {
+                color: #FAFAFA;
+                background: #171717;
+            }
+
+            .container {
+                background: #171717;
+            }
+
+            h1, h2 {
+                color: #FAFAFA;
+            }
+
+            p, li {
+                color: #B4B4B4;
+            }
+
+            .date, footer {
+                color: #898989;
+            }
+
+            .highlight {
+                background: #363636;
+            }
+
+            footer {
+                border-top-color: #2E2E2E;
+            }
+
+            a {
+                color: #3ECF8E;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Polityka prywatności</h1>
+        <p class="date">Data wejścia w życie: 15 sierpnia 2026</p>
+
+        <p>Jasna Księgowość to minimalistyczne narzędzie do prowadzenia księgowości. Rozumiemy znaczenie prywatności, dlatego od samego początku przestrzegamy następujących zasad:</p>
+
+        <div class="highlight">
+            <p style="margin-bottom:0;"><strong>Zobowiązanie: treści księgowe pozostają na Twoim urządzeniu lub w prywatnym iCloud. Gromadzimy wyłącznie ograniczone dane użytkowe i techniczne niezbędne do ulepszania aplikacji.</strong></p>
+        </div>
+
+        <h2>1. Przechowywanie danych</h2>
+        <p>Transakcje, kategorie, księgi i inne treści księgowe są przechowywane wyłącznie na Twoim urządzeniu lub, po włączeniu synchronizacji, w prywatnym iCloud. Nie odczytujemy ani nie analizujemy treści wydatków, nie wyświetlamy spersonalizowanych reklam i nie sprzedajemy Twoich danych.</p>
+
+        <h2>2. Synchronizacja iCloud</h2>
+        <p>Jeśli włączysz synchronizację iCloud, Twoje dane księgowe będą synchronizowane między urządzeniami za pośrednictwem CloudKit firmy Apple. Proces ten jest w całości zarządzany przez usługę iCloud firmy Apple i podlega polityce prywatności oraz bezpieczeństwa Twojego osobistego konta iCloud. Nie mamy dostępu do Twoich danych iCloud ani nie możemy przeglądać zsynchronizowanej zawartości.</p>
+        <ul>
+            <li>Synchronizacja odbywa się przez Twoje prywatne konto iCloud</li><li>Dane są przechowywane zaszyfrowane na Twoim koncie iCloud</li><li>Nie mamy żadnego sposobu, aby uzyskać dostęp lub przeglądać te dane</li><li>Synchronizację możesz zarządzać lub wyłączyć w dowolnym momencie przez Ustawienia iPhone'a → Twoje imię → iCloud → iCloud Drive</li>
+        </ul>
+
+        <h2>3. Funkcje AI</h2>
+        <p>Gdy korzystasz z księgowości w języku naturalnym lub funkcji inteligentnego importu, wprowadzany tekst jest wysyłany do usługi AI w celu analizy semantycznej. Żądania te służą wyłącznie zrozumieniu Twojej intencji księgowej i zwróceniu ustrukturyzowanych danych księgowych. Nie przechowujemy Twoich danych wejściowych po stronie serwera.</p>
+
+        <h2>4. SDK stron trzecich</h2>
+        <p>Poniższy SDK strony trzeciej jest włączany przy uruchomieniu aplikacji, aby zrozumieć sposób korzystania z funkcji, diagnozować problemy produktu i poprawiać komfort użytkowania:</p>
+        <ul>
+            <li><strong>Nazwa SDK: </strong>Google Analytics for Firebase</li>
+            <li><strong>Cel: </strong>Pomiar użycia aplikacji, analiza funkcji i ulepszanie produktu</li>
+            <li><strong>Operator: </strong>Google LLC</li>
+            <li><strong>Gromadzone dane: </strong>Identyfikatory instancji aplikacji; informacje o urządzeniu lub sieci, takie jak model, system operacyjny, język i przybliżony region; zdarzenia użytkowania, takie jak wyświetlenia ekranów i interakcje z przyciskami; oraz zdarzenia zakupu, takie jak produkt subskrypcji, cena, waluta i wynik zakupu</li>
+            <li><strong>Treści niegromadzone: </strong>Nazwy i kwoty transakcji, notatki, salda kont, tekst wyszukiwania i dane wprowadzane do AI nie są wysyłane jako parametry analityczne</li>
+            <li><strong>Reklamy i śledzenie: </strong>Ta wersja nie zawiera funkcji reklamowych i nie wykorzystuje tych danych do reklam spersonalizowanych ani śledzenia między aplikacjami</li>
+            <li><strong>Link do polityki prywatności: </strong><a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></li>
+        </ul>
+
+        <h2>5. Eksport i usuwanie danych</h2>
+        <p>Wszystkie dane możesz wyeksportować w dowolnym momencie za pomocą funkcji "Import/Eksport" w aplikacji lub po prostu usunąć aplikację, aby skasować wszystkie dane lokalne. Dane w iCloud można usunąć za pośrednictwem strony zarządzania iCloud firmy Apple.</p>
+
+        <h2>6. Kontakt</h2>
+        <p>W razie pytań lub wątpliwości dotyczących prywatności skontaktuj się z nami przez sekcję "Pomoc i opinie" w aplikacji.</p>
+
+        <footer>
+            <p>Jasna Księgowość — Twoje dane zawsze należą do Ciebie.</p>
+        </footer>
+    </div>
+</body>
+</html>
